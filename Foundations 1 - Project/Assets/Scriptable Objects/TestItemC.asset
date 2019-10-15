@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d06464c4b25cbcc4aa855285b5f17c37, type: 3}
+  m_Name: TestItemC
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 1602462868876862, guid: 850004468c4aad444abfbc7d5a2d41e1, type: 2}
+  ItemName: A ThirdTest Item
+  ItemDescription: C is the first letter of my last name
+  ItemType: Weapon
+  ItemDurability: 0
+  ItemEnergy: 0
+  ItemPower: 3
+  ItemAmmunition: 0
+  PlayerHasItem: 0
+  ItemArtwork: {fileID: 21300000, guid: 535382f441b5b524684369681c0821d9, type: 3}
