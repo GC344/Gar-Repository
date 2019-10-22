@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: SmokeDust
+  m_Shader: {fileID: 4800000, guid: 7693d8c833204ba4c81b9974b1a0933d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_78B5A07D:
+        m_Texture: {fileID: 2800000, guid: ed1e763a2e4522343b274c3f39d42f47, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C69C258D:
+        m_Texture: {fileID: 2800000, guid: a7e9935d3b5ee1b4ea9e6c7aa8fc2298, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - Color_47265D39: {r: 1.3350784, g: 1.3350784, b: 1.3350784, a: 0}
+    - Vector2_6BA8636D: {r: -4.12, g: 0.84, b: 0, a: 0}
+    - Vector2_F850CA7D: {r: -0.5, g: 0.5, b: 0, a: 0}
