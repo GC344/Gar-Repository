@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Name: examples
   m_EditorClassIdentifier: 
   exampleItems:
-  - ExampleName: Sphere
-    ExampleInt: 1
-    ExamplePrefab: {fileID: 1071555137672628, guid: 4cdc7add5c54ecb4c82d66b67a67fc04,
-      type: 2}
-  - ExampleName: Cube
-    ExampleInt: 2
-    ExamplePrefab: {fileID: 1553730343307218, guid: 719ae4009331a2746aa927a8fb7f50a1,
-      type: 2}
-  - ExampleName: Capsule
-    ExampleInt: 3
-    ExamplePrefab: {fileID: 1602462868876862, guid: 850004468c4aad444abfbc7d5a2d41e1,
-      type: 2}
+  - ExampleName: Basic Armor
+    Type: 0
+    ItemSlot: 0
+    ExampleInt: 0
+    ExamplePrefab: {fileID: 0}
+  - ExampleName: Shock Fist
+    Type: 1
+    ItemSlot: 1
+    ExampleInt: 0
+    ExamplePrefab: {fileID: 0}
+  - ExampleName: Shield
+    Type: 2
+    ItemSlot: 3
+    ExampleInt: 0
+    ExamplePrefab: {fileID: 0}

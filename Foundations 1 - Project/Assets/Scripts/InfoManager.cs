@@ -8,7 +8,7 @@ using System.IO;
 public class InfoManager : MonoBehaviour {
     // public List<ExampleData> Equipment;
     [SerializeField]
-    private ExampleData exampleData;
+    private ExampleData ExampleData;
 
     public Text NameText,PreviousName;
     private int CurrentIndex = 0;
@@ -29,10 +29,10 @@ public class InfoManager : MonoBehaviour {
     }
     private void Start()
     {
-        for (int i = 0; i < exampleData.exampleItems.Count; i++)
+        for (int i = 0; i < ExampleData.exampleItems.Count; i++)
         {
-            Debug.Log("Example Name: " + exampleData.exampleItems[i].ExampleName);
-            Debug.Log("Example Int: " + exampleData.exampleItems[i].ExampleInt);
+            Debug.Log("Example Name: " + ExampleData.exampleItems[i].ExampleName);
+            Debug.Log("Example Int: " + ExampleData.exampleItems[i].ExampleInt);
         }
        
     }
@@ -64,7 +64,7 @@ public class InfoManager : MonoBehaviour {
     }
     void SaveExample()
     {
-        string json = JsonUtility.ToJson(exampleData);
+        string json = JsonUtility.ToJson(ExampleData);
         File.WriteAllText(Application.persistentDataPath + Path.DirectorySeparatorChar + "GCExampleData.txt", json);
         Debug.Log("Data saved to:" + Application.persistentDataPath);//Where Data has been saved to
         
@@ -109,10 +109,10 @@ public class InfoManager : MonoBehaviour {
     
     void ShowConsole()
     {
-        for (int i = 0; i < exampleData.exampleItems.Count; i++)
+        for (int i = 0; i < ExampleData.exampleItems.Count; i++)
         {
-            Debug.Log("Example Name: " + exampleData.exampleItems[i].ExampleName);
-            Debug.Log("Example Int: " + exampleData.exampleItems[i].ExampleInt);
+            Debug.Log("Example Name: " + ExampleData.exampleItems[i].ExampleName);
+            Debug.Log("Example Int: " + ExampleData.exampleItems[i].ExampleInt);
         }
     }
 
@@ -126,7 +126,7 @@ public class InfoManager : MonoBehaviour {
         //Give The UI info as needed from the scriptable object
         //return exampleData.exampleItems[i].ExampleName;
         //NameText.text = exampleData.exampleItems[1].ExampleName;
-        return exampleData.exampleItems[i].ExampleName;
+        return ExampleData.exampleItems[i].ExampleName;
     }
     void Upgrade()
     {
@@ -134,6 +134,6 @@ public class InfoManager : MonoBehaviour {
     }
     void Equip(int i)
     {
-        Instantiate(exampleData.exampleItems[i].ExamplePrefab,transform.position,Quaternion.identity);
+        Instantiate(ExampleData.exampleItems[i].ExamplePrefab,transform.position,Quaternion.identity);
     }
 }
