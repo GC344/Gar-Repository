@@ -18,10 +18,29 @@ public class AIBehaviour : MonoBehaviour {
         // Update is called once per frame
     }
 
+    /*
+     * Root
+     * Selector
+     * sequence
+     * leaf
+     * 
+     */
+
+
     public bool CheckVisible()
     {
         //raycast or nav mesh info?
         return true;
+    }
+
+
+    public void RootExample()
+    {
+        //Spawn
+        // StartEncounter()
+        //SELECTOR 
+        //if PlayerHPisHigh == true do this or that
+
     }
 
     //Leafs
