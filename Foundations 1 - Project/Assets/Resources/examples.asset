@@ -12,15 +12,63 @@ MonoBehaviour:
   m_Name: examples
   m_EditorClassIdentifier: 
   exampleItems:
-  - ExampleName: Sphere
-    ExampleInt: 1
-    ExamplePrefab: {fileID: 1071555137672628, guid: 4cdc7add5c54ecb4c82d66b67a67fc04,
+  - ExampleName: Basic Armor
+    Type: 0
+    ItemSlot: 0
+    ExampleInt: 0
+    ExamplePrefab: {fileID: 1602462868876862, guid: 850004468c4aad444abfbc7d5a2d41e1,
       type: 2}
-  - ExampleName: Cube
-    ExampleInt: 2
+  - ExampleName: Shock Fist
+    Type: 1
+    ItemSlot: 1
+    ExampleInt: 5
     ExamplePrefab: {fileID: 1553730343307218, guid: 719ae4009331a2746aa927a8fb7f50a1,
       type: 2}
-  - ExampleName: Capsule
+  - ExampleName: SawBlade
+    Type: 2
+    ItemSlot: 3
+    ExampleInt: 4
+    ExamplePrefab: {fileID: 1071555137672628, guid: 4cdc7add5c54ecb4c82d66b67a67fc04,
+      type: 2}
+  - ExampleName: Shield
+    Type: 2
+    ItemSlot: 3
+    ExampleInt: 0
+    ExamplePrefab: {fileID: 1602462868876862, guid: 850004468c4aad444abfbc7d5a2d41e1,
+      type: 2}
+  - ExampleName: BuzzSaw
+    Type: 1
+    ItemSlot: 1
+    ExampleInt: 0
+    ExamplePrefab: {fileID: 1553730343307218, guid: 719ae4009331a2746aa927a8fb7f50a1,
+      type: 2}
+  - ExampleName: Laser
+    Type: 1
+    ItemSlot: 2
     ExampleInt: 3
     ExamplePrefab: {fileID: 1602462868876862, guid: 850004468c4aad444abfbc7d5a2d41e1,
+      type: 2}
+  - ExampleName: Tomahawk
+    Type: 2
+    ItemSlot: 3
+    ExampleInt: 0
+    ExamplePrefab: {fileID: 1071555137672628, guid: 4cdc7add5c54ecb4c82d66b67a67fc04,
+      type: 2}
+  - ExampleName: Fire
+    Type: 1
+    ItemSlot: 0
+    ExampleInt: 10
+    ExamplePrefab: {fileID: 1768582084136110, guid: 3a96f0dfcb1f81a448d10d5535b99f1c,
+      type: 2}
+  - ExampleName: Fire alt
+    Type: 1
+    ItemSlot: 0
+    ExampleInt: 10
+    ExamplePrefab: {fileID: 1348947042719230, guid: 44e42076413d13c49b0ccfef8d28e656,
+      type: 2}
+  - ExampleName: Electricity
+    Type: 1
+    ItemSlot: 0
+    ExampleInt: 10
+    ExamplePrefab: {fileID: 1358986683563638, guid: fe58529d26bd1944caa317a54d54750f,
       type: 2}
