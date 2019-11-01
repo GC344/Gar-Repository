@@ -21,7 +21,7 @@ MonoBehaviour:
   - ExampleName: Shock Fist
     Type: 1
     ItemSlot: 1
-    ExampleInt: 5
+    ExampleInt: 6
     ExamplePrefab: {fileID: 1553730343307218, guid: 719ae4009331a2746aa927a8fb7f50a1,
       type: 2}
   - ExampleName: SawBlade
@@ -71,4 +71,16 @@ MonoBehaviour:
     ItemSlot: 0
     ExampleInt: 10
     ExamplePrefab: {fileID: 1358986683563638, guid: fe58529d26bd1944caa317a54d54750f,
+      type: 2}
+  - ExampleName: Dust
+    Type: 1
+    ItemSlot: 0
+    ExampleInt: 14
+    ExamplePrefab: {fileID: 1643760869148040, guid: df962749e5bd2bc45ab5da30c2a85eb7,
+      type: 2}
+  - ExampleName: Birds
+    Type: 2
+    ItemSlot: 2
+    ExampleInt: 15
+    ExamplePrefab: {fileID: 1939915750750412, guid: 511ddb551442aed4d93b27d3711bd0cc,
       type: 2}
